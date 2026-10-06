@@ -1,0 +1,19 @@
+<meta>
+    <info author="kirchenko" description="MTA exchange system for vehicles, plates, money with DGS GUI" type="script" version="1.0"/>
+    
+    <!-- Сервер -->
+    <script src="server/exchange.lua" type="server"/>
+    <script src="server/exports.lua" type="server"/>
+    
+    <!-- Клиент -->
+    <script src="client/exchange.lua" type="client"/>
+    <script src="client/ui.lua" type="client"/>
+    
+    <!-- Файлы -->
+    <file src="assets/fonts.ttf"/>
+    
+    <!-- Зависимости -->
+    <dependency resource="sq_save"/>
+    <dependency resource="sq_garage"/>
+    <dependency resource="dgs"/>
+</meta>
